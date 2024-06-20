@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Roboto, sans-serif, Arial;
+}
+.headnav{
+    background-color: #F3F8F2;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.back{
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.25rem;
+    margin-left: 20px;
+}
+.name{
+    font-size: 2rem;
+    width: 100%;
+    text-align: center;
+    color: #140700;
+}
+.topic{
+    margin: 20px;
+    font-size: 2rem;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>parth classes| Sing in</title>
+    <link rel="icon" href="../../img/logo.png">
+    <link rel="stylesheet" href="singPhase2.css">
+</head>
+<body>
+    <div class="head">
+        <p class="paraHead">Sing-in</p>
+        <div class="main">
+            <form action="#" id="forms">
+                <div class="form-contener">
+                    <label for="name">Username:</label>
+                    <input type="text" placeholder="Enter your Username" id="name" class="textInput"  autocomplete="off">
+                    <span id="errorName" class="error">error</span>
+                </div>
+                <div class="form-contener">
+                    <label for="email">Password:</label>
+                    <input type="password" placeholder="Enter your Password" id="pass" class="textInput" autocomplete="off">
+                    <span id="errorPass" class="error">error</span>
+                </div>
+                <div class="form-contener-privacy">
+                    <input type="checkbox" id="policy" class="acceptinput">
+                    <span class="accept">accept</span>
+                    <a href="#">privacy policy</a>
+                    <span id="errorPolicy" class="error">error</span>
+                </div>
+                <div class="buttons">
+                    <input type="reset" id="resetButton" class="but" value="Reset"> 
+                    <input type="submit" id="submitButton" class="but" value="Next">     
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="singPhase2.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parth Classes</title>
+    <link rel="icon" href="../img/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="subtopic.css">
+    <link rel="stylesheet" href="batches.css">
+</head>
+<body>
+    <header>
+        <div class="headnav">
+            <a href="home.html" class="back">
+                <i class="fa-solid fa-chevron-left"></i>
+            </a>
+            <p class="name">Batches</p>
+        </div>
+    </header>
+    <main>
+        <div class="content">
+            <div class="class">
+                <img src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHN0dWRlbnRzfGVufDB8fDB8fHwy" alt="10th banner" class="banners">
+                <div class="line1">
+                    <span>Udaan Hindi(class 10th)</span>
+                    <i class="fa-solid fa-share fa-fw"></i>
+                </div>
+                <div class="line">
+                    <span>Language: Hindi</span>
+                    <span id="price">price:2000rs</span>
+                </div>
+                <div class="line">
+                    <span>Validity: till exam</span>
+                    <span>start on:1-04-2024</span>
+                </div>    
+                <button class="buy">study</button>
+            </div>
+        </div>
+    </main>
+    <script>
+        const next = document.querySelector(".class");
+        next.addEventListener("click", () => {
+            location.href="udaan hindi.html";
+        })
+    </script>
+</body>
+</html>

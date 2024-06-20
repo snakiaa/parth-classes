@@ -1,0 +1,380 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.hed {
+    margin: auto;
+    width: 95%;
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    object-fit: cover;
+    height: 70%;
+}
+.nav-but{
+    width: 60%;
+    height: 90%;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-but a {
+    text-decoration: none;
+    font-family: sans-serif,Arial, Helvetica;
+    font-size: 2rem;
+    color: #000;
+}
+.nav-but i{
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+#home{
+    color: #007EA7;
+}
+#Register{
+    width: 20%;
+    height: 50%;
+    background-color: #00A8E8;
+    font-family: sans-serif, Arial, Helvetica;
+    font-size: 2rem;
+    color: #fff;
+    cursor: pointer;
+}
+.newNav-but{
+    background-color: #fff;
+    border: 2px solid #808080;
+    border-radius: 10px;
+    position: absolute;
+    right: 7%;
+    top: 12%;
+    padding: 10px;
+    z-index: 2;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.newNav-but a{
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: Roboto, sans-serif, Arial;
+    color: #000;
+    margin-bottom: 10px;
+}
+#crossNav{
+    font-size: 2rem;
+    cursor: pointer;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    width: 100%;
+    height: 83vh;
+    align-content: center;
+    padding-left: 2%;
+}
+#p1,#p2,#p3{
+    font-family: Roboto, sans-serif, Arial;
+    font-size: 4rem;
+}
+#p2,#p3{
+    font-weight: bold;
+}
+#p3{
+    color: #007EA7;
+}
+#p4{
+    margin: 1rem 0rem;
+    font-size: 1.5rem;
+    font-family: Roboto, sans-serif, Arial;
+}
+.search{
+    background-color: #fff;
+    border: 1px solid #ECE8E8;
+    border-radius: 10px;
+    width: 80%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+.search i{
+    color: #A39E9E;
+}
+#ser-input{
+    height: 100%;
+    width: 55%;
+    padding-left: 5px;
+    border: none;
+    outline: none;
+}
+#ser-but{
+    height: 100%;
+    width: 35%;
+    padding: 2px;
+    position: relative;
+    right: 0px;
+    background-color: #007EA7;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: Roboto, sans-serif, Arial;
+    font-size: 1rem;
+    color: #fff;
+    cursor: pointer;
+}
+#course-error,#error{
+    color: #f00;
+}
+.right{
+    width: 100%;
+    height: 83vh;
+}
+#img1, #img2{
+    width: 50%;
+    height: 40%;
+    border-radius: 10px;
+}
+#img1{
+    position: relative;
+    left: 40%;
+}
+#img2{
+    position: relative;
+    left: 5%;
+    bottom: 8%;
+}
+.facility{
+    background: linear-gradient(to top, #003459, #0070BF);
+    width: 40%;
+    height: 20%;
+    border-radius: 30px;
+    position: relative;
+    left: 20%;
+    transform: scale(1.3);
+    z-index: 1;
+    align-content: center;
+}
+.span{
+    width: 100%;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: #FFF9F9;
+}
+.centerlogin{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    top: 0%;
+    z-index: 4;
+}
+.small-Andro{
+    background-color: #fff;
+    width: 320px;
+    height: 655px;
+    border: 1px solid #000;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    font-family: Roboto, sans-serif, Arial;
+    box-shadow: 3px 3px 2px 2px #848484;
+}
+#cross{
+    color: #848484;
+    font-size: 2rem;
+    display: block;
+    text-align: right;
+    width: 80%;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.loginHead{
+    width: 100%;
+    height: 61px;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 19px;
+}
+.login{
+    margin-top: 100px;
+    width: 280px;
+    height: 137px;
+}
+.login-div{
+    height: 34px;
+    border-radius: 5px;
+    border-bottom: 1px solid #E4DADA;
+    background-color: #F8F8F8;
+    margin: 2px 0px 10px 0px;
+}
+.username, .password{
+    width: 98px;
+    height: 15px;
+    font-size: 20px;
+}
+#user, #pass{
+    width: 240px;
+    height: 30px;
+    border: none;
+    font-size: 20px;
+    outline: none;
+    background-color: #F8F8F8;
+}
+.login-div i{
+    font-size: 1rem;
+    margin-left: 15px;
+    color: #A39E9E;
+}
+#forgot{
+    display: block;
+    text-align: right;
+}
+.sub-but{
+    margin-top: 70px;
+    width: 90%;
+    height: 43px;
+    border: none;
+    border-radius: 20px;
+    background-color: #00A8E8;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
+.singup-div{
+    width: 90%;
+    margin-top: 20px;
+}
+.singupicon-div{
+    width: 100%;
+    text-align: center;
+}
+.singup-para{
+    font-weight: bold;
+    color: #A39E9E;
+}
+.singup-div i{
+    font-size: 2rem;
+}
+.singupOtr-para{
+    margin-top: 40px;
+    text-align: right;
+}
+@media (max-width: 1200px) {
+    #p1, #p2, #p3{
+        font-size: 2.5rem;
+    }
+    #p4{
+        font-size: 1rem;
+    }
+    .nav-but, .search{
+        width: 70%;
+    }
+   .right{
+    height: 70vh;
+    align-self: center;
+   }
+   .span{
+    font-size: 1.3rem;
+   }
+   #img1, #img2{
+    width: 60%;
+   }
+   #img1{
+    left: 30%;
+   }
+}
+@media (max-width: 1000px) {
+    .nav-but{
+        width: 85%;
+    }
+    #img1, #img2{
+        width: 70%;
+    }
+    #img1{
+        left: 28%;
+    }
+    .facility{
+        width: 70%;
+        left: 10%;
+    }
+    .span{
+        font-size: 1.2rem;
+    }
+}
+@media (max-width: 800px) {
+    .nav-but{
+        justify-content: right;
+    }
+    .nav-but a{
+        display: none;
+    }
+    #Register{
+        font-size: 1.5rem;
+    }
+    .nav-but i{
+        display: inline;
+    }
+    #img2{
+        width: 90%;
+        left: 0%;
+    }
+    #img1{
+        width: 90%;
+        left: 0%;
+        top: 2%;
+    }
+    .facility{
+        border-radius: 20px;
+        width: 90%;
+        left: 0%;
+        transform: scale(1);
+    }
+    .span{
+        font-size: 1rem;
+    }
+    .search{
+        width: 90%;
+    }
+}
+@media (max-width: 600px){
+    main{
+        display: block;
+    }
+    .left{
+        height: 50vh;
+    }
+    #img1, #img2{
+        width: 90%;
+        justify-self: center;
+    }
+    .right{
+        padding: 20px;
+    }
+    #Register{
+        font-size: 1rem;
+        width: 40%;
+    }
+    .nav-but{
+        height: 70%;
+    }
+}
+@media (max-width: 400px){
+    .search{
+        height: auto;
+    }
+}

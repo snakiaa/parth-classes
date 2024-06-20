@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Udaan Hindi</title>
+    <link rel="icon" href="../../../img/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../../subtopic.css">
+    <link rel="stylesheet" href="scienceUdaanHindi.css">
+</head>
+<body>
+    <header>
+        <div class="headnav">
+            <a href="../../batches.html" class="back">
+                <i class="fa-solid fa-chevron-left"></i>
+            </a>
+            <p class="name" style="text-align: left; margin-left: 5%;">Udaan Hindi(class 10th)</p>
+            <div class="navoption">
+                <a href="" style="color: #EA8342;">Class</a>
+                <a href="notes.html">Notes</a>
+                <a href="homework.html">HomeWork</a>
+                <a href="notic.html">Notics</a>
+                <a href="test.html">Tests</a>
+                <i class="fa-solid fa-ellipsis-vertical" id="dot"></i>
+            </div>
+            <div class="smallNavoption">
+                <i class="fa-solid fa-xmark" id="xmark"></i>
+                <a href="" style="color: #EA8342;">Class</a>
+                <a href="notes.html">Notes</a>
+                <a href="homework.html">HomeWork</a>
+                <a href="notic.html">Notics</a>
+                <a href="test.html">Tests</a>
+            </div>
+        </div>
+        <div class="subhead">
+            <a href="../../udaan hindi.html" class="back">
+                <i class="fa-solid fa-chevron-left"></i>
+            </a>
+            <p>Science</p>
+        </div>
+    </header>
+    <main>
+        <div class="lectures">
+            <div class="topic">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/6Is7ESLx7lc?si=iohe26FPFr3grPlX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p class="topictext">Class 10 Science question paper solution Morning Shift</p>
+            </div>
+        </div>
+    </main>
+    <script>
+        const dot = document.querySelector("#dot");
+        const smallNavoption = document.querySelector(".smallNavoption");
+        dot.addEventListener("click", () => {
+            smallNavoption.style.display="flex";
+        });
+        const cross = document.querySelector("#xmark");
+        cross.addEventListener("click", () => {
+            smallNavoption.style.display="none"
+        })
+    </script>
+</body>
+</html>

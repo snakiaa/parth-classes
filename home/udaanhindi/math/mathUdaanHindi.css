@@ -1,0 +1,110 @@
+.navoption{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navoption a, .navoption i{
+    text-decoration: none;
+    font-size: 2rem;
+    color: #140700;
+}
+.navoption i{
+    display: none;
+}
+.smallNavoption{
+    position: absolute;
+    width: auto;
+    height: auto;
+    background-color: #F3F8F2;
+    padding: 20px;
+    z-index: 6;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: self-start;
+    right: 2%;
+    top: 10px;
+    display: none;
+}
+.smallNavoption a, .smallNavoption i{
+    font-size: 2rem;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #140700;
+}
+.smallNavoption i{
+    text-align: right;
+}
+.subhead{
+    width: 100%;
+    height: 50px;
+    background-color: #D9D9D9;
+    display: flex;
+    align-items: center;
+}
+.subhead p{
+    margin-left: 20px;
+    font-size: 2rem;
+}
+.lectures{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: self-start;
+    justify-content: center;
+}
+.topic{
+    padding: 5px;
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.topic iframe{
+    border-radius: 20px;
+}
+.topictext{
+    font-size: 1.5rem;
+    text-align: left;
+}
+@media (max-width: 1250px){
+    .navoption a{
+        font-size: 1.5rem;
+    }
+}
+@media(max-width: 1000px){
+    .navoption a{
+        font-size: 1rem;
+    }
+    .name{
+        font-size: 1.5rem;
+    }
+    
+}
+@media(max-width: 800px){
+    .navoption a{
+        display: none;
+    }
+    .navoption i {
+        display: inline;
+    }
+    .navoption {
+        width: 10%;
+    }
+    .subhead p {
+        font-size: 1rem;
+    }
+    .name{
+        font-size: 1rem;
+    }
+    .topictext{
+        width: 90%;
+    }
+    .topic iframe{
+        width: 270px;
+        height: 152px;
+    }
+}

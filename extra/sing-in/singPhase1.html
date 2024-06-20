@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>parth classes| Sing in</title>
+    <link rel="icon" href="../../img/logo.png">
+    <link rel="stylesheet" href="singPhase1.css">
+</head>
+<body>
+    <div class="head">
+        <p class="paraHead">Sing-in</p>
+        <div class="main">
+            <form action="#" id="forms">
+                <div class="form-contener">
+                    <label for="name">Name:</label>
+                    <input type="text" placeholder="Enter your name" id="name" class="textInput"  autocomplete="off">
+                    <span id="errorName" class="error">error</span>
+                </div>
+                <div class="form-contener">
+                    <label for="email">Email:</label>
+                    <input type="email" placeholder="Enter your email" id="email" class="textInput" autocomplete="off">
+                    <span id="errorEmail" class="error">error</span>
+                </div>
+                <div class="form-contener">
+                    <label for="phone">Phone number:</label>
+                    <input type="number" placeholder="Enter your phone number" id="phone" class="textInput" autocomplete="off">
+                    <span id="errorPhone" class="error">error</span>
+                </div>
+                <div class="form-contener">
+                    <label for="address">Address:</label>
+                    <textarea placeholder="Enter your current address" id="address" class="textInput" autocomplete="off"></textarea>
+                    <span id="erroraddress" class="error">error</span>
+                </div>
+                <div class="addresDiv">
+                    <div class="form-contener">
+                        <label for="state">State:</label>
+                        <select class="textInput" id="sts" onchange="print_city('state', this.selectedIndex);"></select>
+                        <span id="errorState" class="error">error</span>
+                    </div>
+                    <div class="form-contener">
+                        <label for="city">City:</label>
+                        <select class="textInput" id="state">
+                            <option value="select">Select City</option>
+                        </select>
+                        <span id="errorCity" class="error">error</span>
+                    </div>
+                    <div class="form-contener" >
+                        <label for="state">Pin code:</label>
+                        <input type="number" id="pin" class="textInput" placeholder="pincode" autocomplete="off">
+                        <span id="errorPin" class="error">error</span>
+                    </div> 
+                </div>               
+                <div class="buttons">
+                    <input type="reset" id="resetButton" class="but" value="Reset"> 
+                    <input type="submit" id="submitButton" class="but" value="Next">     
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="singPhase1.js"></script>
+    <script src="cities.js"></script>
+    <script language="javascript">print_state("sts");</script>
+</body>
+</html>

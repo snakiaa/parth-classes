@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parth Classes</title>
+    <link rel="icon" href="../img/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="subtopic.css">
+    <link rel="stylesheet" href="download.css">
+</head>
+<body>
+    <header>
+        <div class="headnav">
+            <a href="home.html" class="back">
+                <i class="fa-solid fa-chevron-left"></i>
+            </a>
+            <p class="name">Downloads</p>
+        </div>
+    </header>
+    <main>
+        <div class="selecter">
+            <span class="video">videos</span>
+            <span class="document">documents</span>
+        </div>
+        <p class="topic">no downloads...</p>
+    </main>
+    <script>
+        const video = document.querySelector(".video");
+        const documents = document.querySelector(".document");
+            video.addEventListener("click", () => {
+                documents.style.color="#000";
+                video.style.color="#FFF";
+            });
+            documents.addEventListener("click", () => {
+                video.style.color="#000";
+                documents.style.color="#FFF";
+            });
+    </script>
+</body>
+</html>

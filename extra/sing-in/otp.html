@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>parth classes| forgot password</title>
+    <link rel="icon" href="../../img/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="otp.css">
+</head>
+<body>
+    <main>
+        <div class="centerlogin">
+            <div class="small-Andro">
+                <p class="loginHead">Login</p>
+                    <div class="login">
+                        <label for="otp" class="otpClass">enter otp</label>
+                        <div class="login-div">
+                            <input type="number" id="otp">
+                            <input type="number" id="otp" disabled />
+                            <input type="number" id="otp" disabled />
+                            <input type="number" id="otp" class="last" disabled />
+                        </div>
+                        <div id="loader"></div>
+                        <span id="error"></span>
+                        <div id="resend">
+                            <span id="textResend">resend</span>
+                            <span id="textotp">otp</span>
+                            <span id="otpTimer">1:0</span>
+                        </div>
+                    </div>
+                <button id="submit" class="sub-but">NEXT</button>
+            </div>
+        </div>
+    </main>
+    <script src="otp.js" defer></script>
+</body>
+</html>

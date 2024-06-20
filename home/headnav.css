@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: roboto, sans-serif, arial;
+}
+.navbar{
+    width: 100vw;
+    height: 60px;
+    background-color: #F3F8F2;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 5;
+}
+.logo{
+    width: 50%;
+    height: 100%;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 10%;
+}
+.logo i{
+    font-size: 2rem;
+    color: #140700;
+    cursor: pointer;
+    display: none;
+}
+#logotext{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #EE5656;
+    text-transform: uppercase;
+}
+.navOption{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navOption i {
+    color: #3E4E50;
+    font-size: 1.5rem;
+}
+.navOption a{
+    text-decoration: none;
+    color: #140700;
+    font-size: 1.5rem;
+}
+.option:hover,.option1:hover{
+    background-color: #8e8e8e;
+}
+.option{
+    border-radius: 10px;
+    padding: 5px;
+}
+.option1{
+    border: 3px solid #000;
+    border-radius: 10px;
+    padding: 5px;
+}
+.option1 a{
+    color: #EA8342;
+}
+#dot{
+    font-size: 2rem;
+    display: none;
+    cursor: pointer;
+}
+.navOptionsmall{
+    background-color: #F3F8F2;
+    width: auto;
+    height: auto;
+    padding: 1%;
+    position: fixed;
+    z-index: 6;
+    right: 2%;
+    display: none;
+    flex-direction: column;
+    align-items: self-start;
+    justify-content: space-evenly;
+}
+.options, .option1s{
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+.options:hover, .option1s:hover{
+    background-color: #8e8e8e;
+}
+.navOptionsmall a{
+    text-decoration: none;
+    color: #140700;
+}
+#xmark{
+    font-size: 2rem;
+    cursor: pointer;
+}
+.option1s a{
+    color: #EA8342;
+}
+@media (max-width: 1000px){
+    .logo i{
+        font-size: 1.5rem;
+    }
+    #logotext{
+        font-size: 1.5rem;
+    }
+    .navOption i{
+        font-size: 1rem;
+    }
+    .navOption a{
+        font-size: 1rem;
+    }
+}
+@media (max-width: 800px){
+    .option, .option1{
+        display: none;
+    }
+    #dot{
+        display: inline;
+    }
+    .navOption{
+        width: auto;
+        justify-content: right;
+        padding-right: 3%;
+    }
+    .logo{
+        width: 100%;
+    }
+}

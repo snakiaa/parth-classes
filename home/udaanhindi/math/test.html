@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Udaan Hindi</title>
+    <link rel="icon" href="../../../img/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../../subtopic.css">
+    <link rel="stylesheet" href="mathUdaanHindi.css">
+</head>
+<body>
+    <header>
+        <div class="headnav">
+            <a href="../../batches.html" class="back">
+                <i class="fa-solid fa-chevron-left"></i>
+            </a>
+            <p class="name" style="text-align: left; margin-left: 5%;">Udaan Hindi(class 10th)</p>
+            <div class="navoption">
+                <a href="mathUdaanHindi.html">Class</a>
+                <a href="notes.html">Notes</a>
+                <a href="homework.html">HomeWork</a>
+                <a href="notic.html">Notics</a>
+                <a href="" style="color: #EA8342;">Tests</a>
+                <i class="fa-solid fa-ellipsis-vertical" id="dot"></i>
+            </div>
+            <div class="smallNavoption">
+                <i class="fa-solid fa-xmark" id="xmark"></i>
+                <a href="mathUdaanHindi.html">Class</a>
+                <a href="notes.html">Notes</a>
+                <a href="homework.html">HomeWork</a>
+                <a href="notic.html">Notics</a>
+                <a href="" style="color: #EA8342;">Tests</a>
+            </div>
+        </div>
+        <div class="subhead">
+            <a href="../../udaan hindi.html" class="back">
+                <i class="fa-solid fa-chevron-left"></i>
+            </a>
+            <p>Math</p>
+        </div>
+    </header>
+    <main>
+        <div class="lectures">
+           <p>nothing to show...</p>
+        </div>
+    </main>
+    <script>
+        const dot = document.querySelector("#dot");
+        const smallNavoption = document.querySelector(".smallNavoption");
+        dot.addEventListener("click", () => {
+            smallNavoption.style.display="flex";
+        });
+        const cross = document.querySelector("#xmark");
+        cross.addEventListener("click", () => {
+            smallNavoption.style.display="none"
+        })
+    </script>
+</body>
+</html>

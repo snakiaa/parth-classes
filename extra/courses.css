@@ -1,0 +1,270 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Roboto, sans-serif, Arial;
+}
+.hed {
+    margin: auto;
+    width: 95%;
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    object-fit: cover;
+    height: 70%;
+}
+.nav-but{
+    width: 60%;
+    height: 90%;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-but a {
+    text-decoration: none;
+    font-family: sans-serif,Arial, Helvetica;
+    font-size: 2rem;
+    color: #000;
+}
+.nav-but i{
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+#course{
+    color: #007EA7;
+}
+#Register{
+    width: 20%;
+    height: 50%;
+    background-color: #00A8E8;
+    font-family: sans-serif, Arial, Helvetica;
+    font-size: 2rem;
+    color: #fff;
+    cursor: pointer;
+}
+.newNav-but{
+    background-color: #fff;
+    border: 2px solid #808080;
+    border-radius: 10px;
+    position: absolute;
+    right: 7%;
+    top: 12%;
+    padding: 10px;
+    z-index: 2;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.newNav-but a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: #000;
+    margin-bottom: 10px;
+}
+#crossNav{
+    font-size: 2rem;
+    cursor: pointer;
+}
+.centerlogin{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    top: 0%;
+    z-index: 4;
+}
+.small-Andro{
+    background-color: #fff;
+    width: 320px;
+    height: 655px;
+    border: 1px solid #000;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    box-shadow: 3px 3px 2px 2px #848484;
+}
+#cross{
+    color: #848484;
+    font-size: 2rem;
+    display: block;
+    text-align: right;
+    width: 80%;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.loginHead{
+    width: 100%;
+    height: 61px;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 19px;
+}
+.login{
+    margin-top: 100px;
+    width: 280px;
+    height: 137px;
+}
+.login-div{
+    height: 34px;
+    border-radius: 5px;
+    border-bottom: 1px solid #E4DADA;
+    background-color: #F8F8F8;
+    margin: 2px 0px 10px 0px;
+}
+.username, .password{
+    width: 98px;
+    height: 15px;
+    font-size: 20px;
+}
+#user, #pass{
+    width: 240px;
+    height: 30px;
+    border: none;
+    font-size: 20px;
+    outline: none;
+    background-color: #F8F8F8;
+}
+#error{
+    color: #f00;
+    visibility: visible;
+}
+.login-div i{
+    font-size: 1rem;
+    margin-left: 15px;
+    color: #A39E9E;
+}
+#forgot{
+    display: block;
+    text-align: right;
+}
+.sub-but{
+    margin-top: 70px;
+    width: 90%;
+    height: 43px;
+    border: none;
+    border-radius: 20px;
+    background-color: #00A8E8;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
+.singup-div{
+    width: 90%;
+    margin-top: 20px;
+}
+.singupicon-div{
+    width: 100%;
+    text-align: center;
+}
+.singup-para{
+    font-weight: bold;
+    color: #A39E9E;
+}
+.singup-div i{
+    font-size: 2rem;
+}
+.singupOtr-para{
+    margin-top: 40px;
+    text-align: right;
+}
+.contener{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.class{
+    width: 260px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid #D6CDCD;
+    box-shadow: 0px 0px 2px 2px gray;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.banners{
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 10px;
+    opacity: 90%;
+}
+.line1{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.line{
+    width: 100%;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#price{
+    text-decoration: line-through;
+}
+.buy{
+    width: 100%;
+    height: 31px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #3E4E50;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
+@media (max-width: 1200px) {
+    .nav-but{
+        width: 70%;
+    }
+}
+@media (max-width: 1000px) {
+    .nav-but{
+        width: 85%;
+    }
+}
+@media (max-width: 800px) {
+    .nav-but{
+        justify-content: right;
+    }
+    .nav-but a{
+        display: none;
+    }
+    #Register{
+        font-size: 1.5rem;
+    }
+    .nav-but i{
+        display: inline;
+    }
+}
+@media (max-width: 600px){
+    #Register{
+        font-size: 1rem;
+        width: 40%;
+    }
+    .nav-but{
+        height: 70%;
+    }
+}

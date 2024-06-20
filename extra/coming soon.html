@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parth classes</title>
+    <link rel="icon" href="../img/logo.png">
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .come-para{
+            font-size: 3rem;
+            color: #808080;
+            text-align: center;
+        }
+        .loader-contener{
+            width: 30%;
+            height: 20px;
+            border: 2px solid #000;
+            border-radius: 10px;
+        }
+        .loader-slider{
+            width: 50%;
+            height: 100%;
+            background-color: #eaff00;
+            border-radius: 10px;
+            animation: load 3s ease-in-out infinite;
+        }
+        @keyframes load{
+            0%{
+                transform: translateX(0%);
+            }
+            50%{
+                transform: translateX(100%);
+            }
+        }
+    </style>
+</head>
+<body>
+    <p class="come-para">This page is Under-Development</p>
+    <div class="loader-contener">
+        <div class="loader-slider"></div>
+    </div>
+</body>
+</html>

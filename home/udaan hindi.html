@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Udaan Hindi</title>
+    <link rel="icon" href="../img/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="subtopic.css">
+    <style>
+        .subjects{
+            padding: 50px;
+            display: flex;
+            align-items: self-start;
+            justify-content: left;
+            gap: 5px;
+            height: 100vh;
+        }
+        .subjects a{
+            text-decoration: none;
+            color: #000;
+            text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            width: 50%;
+            height: 8%;
+            border: 3px solid #000;
+            border-radius: 20px;
+            background-color: #EC6D4C;
+            font-size: 2rem;
+        }
+        @media(max-width:800px){
+            .subjects a{
+                height: 50px;
+                font-size: 1rem;
+            }
+            .subjects {
+                padding: 5px;
+            }
+            .name{
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="headnav">
+            <a href="batches.html" class="back">
+                <i class="fa-solid fa-chevron-left"></i>
+            </a>
+            <p class="name" style="text-align: left; margin-left: 5%;">Udaan Hindi(class 10th)</p>
+        </div>
+    </header>
+    <main>
+        <div class="subjects">
+            <a href="udaanhindi/math/mathUdaanHindi.html">Math</a>
+            <a href="udaanhindi/science/scienceUdaanHindi.html">science</a>
+            <a href="udaanhindi/social science/sstUdaanHindi.html">Social science</a>
+        </div>
+    </main>
+</body>
+</html>
